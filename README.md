@@ -51,6 +51,7 @@ In your Fluent Form:
 The plugin JS handles the AJAX verification and form reveal.
 
 ---
+
 ## HTML Structure for FrontEnd Use
 
 &lt;div id="verify-code-wrapper"&gt;
@@ -92,6 +93,48 @@ The plugin JS handles the AJAX verification and form reveal.
   <div id="verify-loader" style="display: none;">Verifying...</div>
   <div id="application-code-error" style="display: none; color: red;"></div>
 </div>
+
+---
+
+## CSS USED
+
+#verify-code-btn {
+    margin-top: 10px;
+    border-radius: 0px;
+    background-color: #e83831;
+    font-weight: 600;
+}
+
+.buy-form {
+    margin-top: 5px;
+    border-radius: 0px;
+    background-color: #0a3150;
+    font-weight: 600;
+}
+
+label, legend {
+    color: #0a3150;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 5px 
+    
+}
+
+input[type="text"], input[type="number"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type=reset], input[type=tel], input[type=date], select, textarea {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 100%;
+    height: 45px;
+    padding: 14px 16px;
+    border-radius: 0;
+    margin-top: 4px;
+    
+    color: var(--ast-form-input-text, #475569);
+}
 
 
 ---
