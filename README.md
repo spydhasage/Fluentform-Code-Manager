@@ -57,8 +57,8 @@ The plugin JS handles the AJAX verification and form reveal.
 &lt;div id="verify-code-wrapper"&gt;
   &lt;p&gt;&lt;b&gt;Note that Admission form costs ₦5,000.&lt;/b&gt;&lt;br&gt;
   Click the button below to pay and fill your Admission Form or Fill the form if you have already been given an APPLICATION CODE.&lt;br&gt;
-  Contact 080000000000 or 080000000000 if you need any assistance with the process.&lt;br&gt;
-  &lt;a href="https://madebydami.com"&gt;&lt;button class="buy-form"&gt;BUY FORM&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+  Contact 00000000 or 00000000 if you need any assistance with the process.&lt;br&gt;
+  &lt;a href="https://paystack.shop/pay"&gt;&lt;button class="buy-form"&gt;BUY FORM&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
 
   &lt;label for="application_code"&gt;Enter Application Code:&lt;/label&gt;
   &lt;input type="text" name="application_code" required&gt;
