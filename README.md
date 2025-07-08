@@ -2,7 +2,7 @@
 
 A custom WordPress plugin developed to manage and validate one-time application codes before users can access or submit a Fluent Form. It ensures that only applicants with valid, unused codes can proceed with form submission. Once a form is submitted, the code is marked as used and cannot be reused.
 
-> 🏫 Originally developed for <a href="[https://wesleyuniversitylagoscentre.com](https://wesleyuniversitylagoscentre.com/)">**Wesley University, Lagos Centre**</a> as part of their online application system.
+> 🏫 Originally developed for **[Wesley University, Lagos Centre](https://wesleyuniversitylagoscentre.com/)** as part of their online application system.
 
 ---
 
@@ -74,11 +74,11 @@ The plugin JS handles the AJAX verification and form reveal.
 
 
 ---
-## HTML OutPut Sample
+## HTML Output Sample
 
 <div id="verify-code-wrapper">
   <p><b>Note that Admission form costs ₦5,000.</b><br>
-  Click the button below to pay and fill your Admission Form or Fill the form if you have already been given an APPLICATION CODE.<br>
+  Click the button below to pay and fill out your Admission Form, or fill out the form if you have already been given an APPLICATION CODE <br>
   Contact 08113625555 or 08055849779 if you need any assistance with the process.<br>
   <a href="https://paystack.shop/pay/wesley"><button class="buy-form">BUY FORM</button></a></p>
 
@@ -99,36 +99,42 @@ The plugin JS handles the AJAX verification and form reveal.
 ## CSS USED
 
 #verify-code-btn {
-    margin-top: 10px;
-    border-radius: 0px;
-    background-color: #e83831;
-    font-weight: 600;
+    margin-top: 10px;
+    border-radius: 0px;
+    background-color: #e83831;
+    font-weight: 600;
 }
 
 .buy-form {
-    margin-top: 5px;
-    border-radius: 0px;
-    background-color: #0a3150;
-    font-weight: 600;
+    margin-top: 5px;
+    border-radius: 0px;
+    background-color: #0a3150;
+    font-weight: 600;
 }
 
 label, legend {
-    color: #0a3150;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 20px;
-    margin-bottom: 5px;
+    color: #0a3150;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 5px 
+    
 }
 
 input[type="text"], input[type="number"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type=reset], input[type=tel], input[type=date], select, textarea {
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    width: 100%;
-    height: 45px;
-    padding: 14px
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 100%;
+    height: 45px;
+    padding: 14px 16px;
+    border-radius: 0;
+    margin-top: 4px;
+    
+    color: var(--ast-form-input-text, #475569);
+}
 
 
 ---
