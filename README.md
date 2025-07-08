@@ -57,8 +57,8 @@ The plugin JS handles the AJAX verification and form reveal.
 &lt;div id="verify-code-wrapper"&gt;
   &lt;p&gt;&lt;b&gt;Note that Admission form costs ₦5,000.&lt;/b&gt;&lt;br&gt;
   Click the button below to pay and fill your Admission Form or Fill the form if you have already been given an APPLICATION CODE.&lt;br&gt;
-  Contact 08113625555 or 08055849779 if you need any assistance with the process.&lt;br&gt;
-  &lt;a href="https://paystack.shop/pay/wesley"&gt;&lt;button class="buy-form"&gt;BUY FORM&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+  Contact 080000000000 or 080000000000 if you need any assistance with the process.&lt;br&gt;
+  &lt;a href="https://madebydami.com"&gt;&lt;button class="buy-form"&gt;BUY FORM&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
 
   &lt;label for="application_code"&gt;Enter Application Code:&lt;/label&gt;
   &lt;input type="text" name="application_code" required&gt;
@@ -79,8 +79,8 @@ The plugin JS handles the AJAX verification and form reveal.
 <div id="verify-code-wrapper">
   <p><b>Note that Admission form costs ₦5,000.</b><br>
   Click the button below to pay and fill out your Admission Form, or fill out the form if you have already been given an APPLICATION CODE <br>
-  Contact 08113625555 or 08055849779 if you need any assistance with the process.<br>
-  <a href="https://paystack.shop/pay/wesley"><button class="buy-form">BUY FORM</button></a></p>
+  Contact 00000000000 or 0000000000 if you need any assistance with the process.<br>
+  <a href="https://madebydami.com"><button class="buy-form">BUY FORM</button></a></p>
 
   <label for="application_code">Enter Application Code:</label>
   <input type="text" name="application_code" required>
@@ -152,7 +152,7 @@ input[type="text"], input[type="number"], input[type="email"], input[type="url"]
 ## 🧑‍💻 Author
 
 **Damilola Ajila**  
-🔗 [Portfolio](https://damilola.online)  
+🔗 [Portfolio](https://madebydami.com)  
 🔗 [Calendly](https://calendly.com/hajidamilola91/30min)
 
 ---
