@@ -52,6 +52,29 @@ The plugin JS handles the AJAX verification and form reveal.
 
 ---
 
+## HTML Structure for FrontEnd Use
+
+<div id="verify-code-wrapper">
+  <p><b>Note that Admission form costs ₦5,000.</b><br>
+  Click the button below to pay and fill your Admission Form or Fill the form if you have already been given an APPLICATION CODE.<br>
+  Contact 08113625555 or 08055849779 if you need any assistance with the process.<br>
+  <a href="https://paystack.shop/pay/wesley"><button class="buy-form">BUY FORM</button></a></p>
+
+  <label for="application_code">Enter Application Code:</label>
+  <input type="text" name="application_code" required>
+
+  <label for="full_name">Your Full Name:</label>
+  <input type="text" name="full_name" required>
+
+  <button id="verify-code-btn" type="button">Verify Code</button>
+
+  <div id="verify-loader" style="display: none;">Verifying...</div>
+  <div id="application-code-error" style="display: none; color: red;"></div>
+</div>
+
+
+---
+
 ## 💻 Technologies Used
 
 - WordPress Plugin API
