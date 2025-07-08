@@ -2,7 +2,7 @@
 
 A custom WordPress plugin developed to manage and validate one-time application codes before users can access or submit a Fluent Form. It ensures that only applicants with valid, unused codes can proceed with form submission. Once a form is submitted, the code is marked as used and cannot be reused.
 
-> 🏫 Originally developed for **Wesley University, Lagos Centre** as part of their online application system.
+> 🏫 Originally developed for <a href="[https://wesleyuniversitylagoscentre.com](https://wesleyuniversitylagoscentre.com/)">**Wesley University, Lagos Centre**</a> as part of their online application system.
 
 ---
 
@@ -51,8 +51,29 @@ In your Fluent Form:
 The plugin JS handles the AJAX verification and form reveal.
 
 ---
-
 ## HTML Structure for FrontEnd Use
+
+&lt;div id="verify-code-wrapper"&gt;
+  &lt;p&gt;&lt;b&gt;Note that Admission form costs ₦5,000.&lt;/b&gt;&lt;br&gt;
+  Click the button below to pay and fill your Admission Form or Fill the form if you have already been given an APPLICATION CODE.&lt;br&gt;
+  Contact 08113625555 or 08055849779 if you need any assistance with the process.&lt;br&gt;
+  &lt;a href="https://paystack.shop/pay/wesley"&gt;&lt;button class="buy-form"&gt;BUY FORM&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+
+  &lt;label for="application_code"&gt;Enter Application Code:&lt;/label&gt;
+  &lt;input type="text" name="application_code" required&gt;
+
+  &lt;label for="full_name"&gt;Your Full Name:&lt;/label&gt;
+  &lt;input type="text" name="full_name" required&gt;
+
+  &lt;button id="verify-code-btn" type="button"&gt;Verify Code&lt;/button&gt;
+
+  &lt;div id="verify-loader" style="display: none;"&gt;Verifying...&lt;/div&gt;
+  &lt;div id="application-code-error" style="display: none; color: red;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+
+---
+## HTML OutPut Sample
 
 <div id="verify-code-wrapper">
   <p><b>Note that Admission form costs ₦5,000.</b><br>
