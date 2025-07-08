@@ -2,7 +2,7 @@
 
 A custom WordPress plugin developed to manage and validate one-time application codes before users can access or submit a Fluent Form. It ensures that only applicants with valid, unused codes can proceed with form submission. Once a form is submitted, the code is marked as used and cannot be reused.
 
-> 🏫 Originally developed for **[Wesley University, Lagos Centre](https://wesleyuniversitylagoscentre.com/)** as part of their online application system.
+> 🏫 Originally developed for **[Wesley University, Lagos Centre](https://wesleyuniversitylagoscentre.com/register)** as part of their online application system.
 
 ---
 
